@@ -1,4 +1,40 @@
 /* Global*/
+/* Global*/
+body{
+    width:100%;
+}
+.container{
+    width: 40%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.container form label{
+    margin-top: 10px;
+    margin-left: 1%;
+    font-weight: bold;
+}
+.container form input{
+    width: 95%;
+    margin-left: 1%;
+    color: white;
+    padding: auto;
+}
+.container h1{
+    text-align: center;
+    background-color: bisque;
+}
+.container form #submit{
+    width: 20%;
+    margin-left: 38%;
+    background-color: #000080;
+    color: white;
+    margin-top: 4px;
+    padding: auto;
+}
+/* Mobile*/
+
+/* Desktop*/
 
 /* Mobile*/
 
