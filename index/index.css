@@ -1,5 +1,44 @@
 /* Global*/
 
-/* Mobile*/
+/*Navbar*/
+html {
+   margin: 0;
+}
+.logo {
+   width: 9vw;
+   min-width: 100px;
+   height: 9vh;
+   border-radius: 10px;
+   margin-left: 1vw;
+}
 
-/* Desktop*/
+.navbar,
+footer {
+   display: flex;
+   align-items: center;
+   background-color: darkgrey;
+   height: 10vh;
+   flex-direction: row;
+}
+.buttons-container {
+   margin-left: 30%;
+}
+
+a {
+   font-size: 1.2rem;
+   margin-right: 3vw;
+   text-decoration: none;
+}
+li {
+   list-style: none;
+}
+@media (min-width: 560px) {
+   .buttons-container {
+      margin-left: 40%;
+   }
+}
+@media (min-width: 760px) {
+   .buttons-container {
+      margin-left: 60%;
+   }
+}
