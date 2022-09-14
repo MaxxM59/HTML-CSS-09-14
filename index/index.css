@@ -1,15 +1,12 @@
 /* Global*/
 
-/*Navbar*/
-html {
-   margin: 0;
-}
+/*Navbar & Footer*/
 .logo {
-   width: 9vw;
+   width: 10vw;
    min-width: 100px;
-   height: 9vh;
+   height: 10vh;
    border-radius: 10px;
-   margin-left: 1vw;
+   padding-left: 1vw;
 }
 
 .navbar,
@@ -17,28 +14,108 @@ footer {
    display: flex;
    align-items: center;
    background-color: darkgrey;
-   height: 10vh;
+   height: 13vh;
    flex-direction: row;
+   margin: 0;
+   padding: 0;
 }
-.buttons-container {
-   margin-left: 30%;
+.products-container {
+   font-size: 1rem;
+   margin-top: 0.2vh;
+   margin-bottom: 0.2vh;
+   margin-right: 10vw;
+}
+.spacer {
+   flex: 1 1 auto;
 }
 
-a {
+button {
    font-size: 1.2rem;
    margin-right: 3vw;
    text-decoration: none;
+   border-radius: 20px;
+   width: 10vw;
+   min-width: 90px;
+   height: auto;
 }
 li {
    list-style: none;
 }
-@media (min-width: 560px) {
-   .buttons-container {
-      margin-left: 40%;
-   }
+.nav-link {
+   text-decoration: none;
+   color: black;
 }
-@media (min-width: 760px) {
-   .buttons-container {
-      margin-left: 60%;
+.footer {
+   margin-top: auto;
+}
+/* Main Container*/
+.main-container {
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-gap: 10px;
+   text-align: center;
+}
+.first-product {
+   grid-column: 1 / 2;
+   grid-row: 1;
+}
+.second-product {
+   grid-column: 3 / 4;
+   grid-row: 1;
+}
+.third-product {
+   grid-column: 5 / 6;
+   grid-row: 1;
+}
+h1 {
+   font-size: 2rem;
+   text-align: center;
+   margin-top: 8vh;
+   margin-bottom: 8vh;
+}
+h2 {
+   text-align: center;
+}
+.product {
+   margin-top: 0.5vh;
+   margin-bottom: 0.5vh;
+}
+.sell {
+   text-align: center;
+   font-size: 1.5rem;
+}
+body {
+   background-color: lightgrey;
+}
+.product-img {
+   border-radius: 10px;
+}
+/*Mobile*/
+@media (max-width: 760px) {
+   .main-container {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+
+      text-align: center;
+   }
+   .first-product {
+      grid-column: 3/4;
+      grid-row: 1/2;
+   }
+   .second-product {
+      grid-column: 3/4;
+      grid-row: 2/3;
+   }
+   .third-product {
+      grid-column: 3/4;
+      grid-row: 3/4;
+   }
+   .products-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+   .product {
+      margin-right: 2vw;
    }
 }

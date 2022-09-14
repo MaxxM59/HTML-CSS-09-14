@@ -1,41 +1,87 @@
 /* Global*/
-/* Global*/
-body{
-    width:100%;
+body {
+   background-color: lightgrey;
 }
-.container{
-    width: 40%;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    margin-left: 30%;
-    margin-top: 5%;
+.container {
+   width: 40%;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   display: block;
+   margin: auto;
+   margin-top: 25vh;
+   margin-bottom: 25vh;
 }
-.container form label{
-    margin-top: 10px;
-    margin-left: 1%;
-    font-weight: bold;
+.container form label {
+   margin-top: 10px;
+   margin-left: 1%;
+   font-weight: bold;
 }
-.container form input{
-    width: 95%;
-    margin-left: 1%;
-    color: white;
-    padding: auto;
+.container form input {
+   width: 95%;
+   margin-left: 1%;
+   color: white;
+   padding: auto;
 }
-.container h1{
-    text-align: center;
-    background-color: bisque;
+.container h1 {
+   text-align: center;
+   background-color: bisque;
 }
-.container form #submit{
-    width: 20%;
-    margin-left: 38%;
-    background-color: #000080;
-    color: white;
-    margin-top: 4px;
-    padding: auto;
+.container form #submit {
+   width: 20%;
+   margin-left: 38%;
+   background-color: #000080;
+   color: white;
+   margin-top: 4px;
+   padding: auto;
 }
-/* Mobile*/
+/*Navbar & Footer*/
+.logo {
+   width: 10vw;
+   min-width: 100px;
+   height: 10vh;
+   border-radius: 10px;
+   padding-left: 1vw;
+}
 
-/* Desktop*/
+.navbar,
+footer {
+   display: flex;
+   align-items: center;
+   background-color: darkgrey;
+   height: 13vh;
+   flex-direction: row;
+   margin: 0;
+   padding: 0;
+}
+.products-container {
+   font-size: 1rem;
+   margin-top: 0.2vh;
+   margin-bottom: 0.2vh;
+   margin-right: 10vw;
+}
+.spacer {
+   flex: 1 1 auto;
+}
 
-/* Mobile*/
-
-/* Desktop*/
+button {
+   font-size: 1.2rem;
+   margin-right: 3vw;
+   text-decoration: none;
+   border-radius: 20px;
+   width: 10vw;
+   min-width: 90px;
+   height: auto;
+}
+li {
+   list-style: none;
+}
+.nav-link {
+   text-decoration: none;
+   color: black;
+}
+.footer {
+   margin-top: auto;
+}
+.product {
+   margin-top: 0.5vh;
+   margin-bottom: 0.5vh;
+}

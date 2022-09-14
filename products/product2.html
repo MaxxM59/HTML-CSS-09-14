@@ -4,8 +4,8 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Register</title>
-      <link rel="stylesheet" href="./register.css" />
+      <title>Product</title>
+      <link rel="stylesheet" href="./product.css" />
    </head>
    <body>
       <header>
@@ -19,20 +19,28 @@
             </div>
          </nav>
       </header>
-
-      <div class="container">
-         <h1>Register</h1>
-         <form method="POST">
-            <label>Nom d'utilisateur:</label><input type="text" required /><br />
-            <label>Nom:</label><input type="text" /><br />
-            <label>Prénom:</label><input type="text" /><br />
-            <label>E-mail:</label><input type="email" required /><br />
-            <label>Numéro de télephone:</label><input type="tel" /><br />
-            <label>Mot de passe:</label><input type="password" required /><br />
-            <label>Retapez le mot de passe:</label><input type="password" required /><br /><br />
-            <input type="submit" value="Register" id="submit" />
-         </form>
-         <p>Avez-vous déjà un compte, <a href="../login/login.html">connectez-vous ici</a></p>
+      <div class="main-container">
+         <div class="img-container">
+            <img class="product-img" src="../assets/products/s22.jfif" alt="galaxy-s-22" />
+         </div>
+         <div class="info-container">
+            <h2>iPhone 14</h2>
+            <div>
+               <p>Sorti en : 2022, February 09</p>
+               <p>Batterie : 5000mah</p>
+               <p>Couleurs disponibles : Rouge, Vert, Jaune</p>
+               <p>Livraison sous : 12h</p>
+               <p>
+                  Appareil photo: 50 MP, f/1.8, 23mm (wide), 1/1.56", 1.0µm, Dual Pixel PDAF, OIS
+               </p>
+               <p>5G : Oui</p>
+               <p>Résistant : Non</p>
+               <p>Prix : 1210€</p>
+            </div>
+         </div>
+      </div>
+      <div class="sell">
+         <p>N'hésitez pas à nous contacter pour avoir accès aux dernières offres !</p>
       </div>
       <footer class="footer">
          <img class="logo" src="../assets/logo/nav-logo.jfif" alt="logo" />
