@@ -73,6 +73,12 @@ p {
 h2 {
    font-size: 1.5rem;
 }
+.product-img {
+   width: 20vw;
+   height: 20vw;
+   min-width: 200px;
+   min-height: 200px;
+}
 @media (max-width: 760px) {
    .img-container {
       grid-column: 2/5;
