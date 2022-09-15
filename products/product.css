@@ -1,4 +1,7 @@
 /*Navbar & Footer*/
+* {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .logo {
    width: 10vw;
    min-width: 100px;
